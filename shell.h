@@ -20,8 +20,8 @@ extern char **environ;
 
 typedef struct built_in
 {
-  char *command;
-  int (*execute)();
+	char *command;
+	int (*execute)();
 } built_in;
 
 /* PROTOTYPES FUNCTIONS  */

@@ -15,7 +15,7 @@ int _exits(char **args, char *old, char *new)
 	free(old);
 	free(new);
 
-	if(args[1] == NULL)
+	if (args[1] == NULL)
 	{
 		_free_double(args);
 		exit(EXIT_SUCCESS);
