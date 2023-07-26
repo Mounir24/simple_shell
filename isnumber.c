@@ -16,7 +16,7 @@ int isnumber(char *str)
 
 	while (str[i])
 	{
-		if (_isdigit(s[i++]) == 0)
+		if (_isdigit(str[i++]) == 0)
 			return (0);
 	}
 
